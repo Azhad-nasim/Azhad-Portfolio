@@ -1,0 +1,136 @@
+.stage-cube-cont {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  padding-top: 18%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+.cubespinner {
+  animation-name: spincube;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+  transform-style: preserve-3d;
+  transform-origin: 100px 100px 0;
+  margin-left: calc(50% - 100px);
+
+  div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+    background: rgba(255, 255, 255, 0.4);
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0px lightyellow;
+  }
+
+  .face1 {
+    transform: translateZ(100px);
+  }
+  .face2 {
+    transform: rotateY(90deg) translateZ(100px);
+  }
+  .face3 {
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+  }
+  .face4 {
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+  }
+  .face5 {
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+  }
+  .face6 {
+    transform: rotateX(-90deg) translateZ(100px);
+  }
+}
+
+@keyframes spincube {
+  from,
+  to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  16% {
+    transform: rotateY(-90deg);
+  }
+  33% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+    transform: rotateY(-2700deg) rotateZ(90deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+}
+.about-page {
+  @media only screen and (min-width: 250px) and (max-width: 400px) {
+    .text-zone {
+      top: 39%;
+      left: 7rem;
+
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .stage-cube-cont {
+      width: 30%;
+      height: 30%;
+      top: 25rem;
+      margin: 2rem;
+    }
+    .Heading {
+      margin: 20px -10px 80px;
+    }
+  }
+  @media only screen and (min-width: 400px) and (max-width: 800px) {
+    .text-zone {
+      top: 39%;
+      left: 7rem;
+
+      p {
+        font-size: 23px;
+      }
+    }
+
+    .stage-cube-cont {
+      width: 50%;
+      height: 30%;
+      top: 35rem;
+      margin: 2rem;
+    }
+    .Heading {
+      margin: 20px -10px 80px;
+    }
+  }
+  @media only screen and (min-width: 800px) and (max-width: 1400px) {
+    .text-zone {
+      top: 19%;
+      left: 18rem;
+
+      p {
+        font-size: 30px;
+      }
+    }
+
+    .stage-cube-cont {
+      width: 50%;
+      height: 100%;
+      top: 35rem;
+      margin: 2rem;
+    }
+    .Heading {
+      margin: -30rem -12rem 72px -12rem;
+    }
+  }
+}

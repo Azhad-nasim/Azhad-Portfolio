@@ -1,0 +1,46 @@
+.solid-logo {
+  position: absolute;
+  top: auto;
+  right: 12rem;
+  bottom: 15rem;
+  width: 25%;
+  opacity: 1;
+  transform: rotateZ(30deg) !important;
+  border-radius: 2rem;
+}
+
+@media only screen and (max-width: 1500px) {
+  .solid-logo {
+    right: 8rem;
+    bottom: 20rem;
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .solid-logo {
+    right: 1.5rem;
+    bottom: 15rem;
+    width: 20%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .solid-logo {
+    right: 2rem;
+    bottom: 20rem;
+    width: 23%;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .solid-logo {
+    right: 2rem;
+    bottom: 25rem;
+    width: 23%;
+  }
+}
+@media only screen and (min-width: 250px) and (max-width: 400px) {
+  .solid-logo {
+    right: 2rem;
+    bottom: 30rem;
+    width: 20%;
+  }
+}
