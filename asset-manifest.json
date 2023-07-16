@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Azhad-Portfolio/static/css/main.998bceb0.css",
+    "main.js": "/Azhad-Portfolio/static/js/main.34c20604.js",
+    "static/js/787.967b442c.chunk.js": "/Azhad-Portfolio/static/js/787.967b442c.chunk.js",
+    "static/media/Azhad.png": "/Azhad-Portfolio/static/media/Azhad.7b264696fe027dd46f24.png",
+    "static/media/AzhadResume.pdf": "/Azhad-Portfolio/static/media/AzhadResume.f680a56522ce2af06373.pdf",
+    "static/media/L1.png": "/Azhad-Portfolio/static/media/L1.19a1356418c07668413a.png",
+    "static/media/helvetica-neu.ttf": "/Azhad-Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/Azhad-removebg-preview.png": "/Azhad-Portfolio/static/media/Azhad-removebg-preview.e4ad64c184102f221c61.png",
+    "static/media/LaBelleAurore.woff2": "/Azhad-Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/Azhad-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Azhad-Portfolio/index.html",
+    "main.998bceb0.css.map": "/Azhad-Portfolio/static/css/main.998bceb0.css.map",
+    "main.34c20604.js.map": "/Azhad-Portfolio/static/js/main.34c20604.js.map",
+    "787.967b442c.chunk.js.map": "/Azhad-Portfolio/static/js/787.967b442c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.998bceb0.css",
+    "static/js/main.34c20604.js"
+  ]
+}
