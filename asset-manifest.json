@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Azhad-Portfolio/static/css/main.998bceb0.css",
-    "main.js": "/Azhad-Portfolio/static/js/main.3e8b5440.js",
+    "main.js": "/Azhad-Portfolio/static/js/main.1ddee298.js",
     "static/js/787.967b442c.chunk.js": "/Azhad-Portfolio/static/js/787.967b442c.chunk.js",
     "static/media/Azhad.png": "/Azhad-Portfolio/static/media/Azhad.7b264696fe027dd46f24.png",
     "static/media/AzhadResume.pdf": "/Azhad-Portfolio/static/media/AzhadResume.f680a56522ce2af06373.pdf",
@@ -12,11 +12,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/Azhad-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Azhad-Portfolio/index.html",
     "main.998bceb0.css.map": "/Azhad-Portfolio/static/css/main.998bceb0.css.map",
-    "main.3e8b5440.js.map": "/Azhad-Portfolio/static/js/main.3e8b5440.js.map",
+    "main.1ddee298.js.map": "/Azhad-Portfolio/static/js/main.1ddee298.js.map",
     "787.967b442c.chunk.js.map": "/Azhad-Portfolio/static/js/787.967b442c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.998bceb0.css",
-    "static/js/main.3e8b5440.js"
+    "static/js/main.1ddee298.js"
   ]
 }
