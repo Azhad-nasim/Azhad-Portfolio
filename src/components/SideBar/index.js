@@ -27,15 +27,15 @@ function SideBar(props) {
         {/* <img className="sub-logo" src={Logosubtitle} alt="azhad" /> */}
       </Link>
       <nav>
-        <NavLink
+        <Link
           exact="true"
           activeclassname="active"
           to="/"
           onClick={() => changeLocation('/')}
         >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
+        </Link>
+        <Link
           exact="true"
           activeclassname="active"
           to="/project"
@@ -43,8 +43,8 @@ function SideBar(props) {
           onClick={() => changeLocation('/project')}
         >
           <FontAwesomeIcon icon={faCodeFork} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
+        </Link>
+        <Link
           exact="true"
           activeclassname="active"
           to="/about"
@@ -52,8 +52,8 @@ function SideBar(props) {
           onClick={() => changeLocation('/about')}
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
+        </Link>
+        <Link
           exact="true"
           activeclassname="active"
           to="/contact"
@@ -61,7 +61,7 @@ function SideBar(props) {
           onClick={() => changeLocation('/contact')}
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-        </NavLink>
+        </Link>
       </nav>
       <ul>
         <li>
